@@ -52,7 +52,7 @@ export default function Page() {
   const canGoBack = currentStep > 0;
 
   return (
-    <main className="min-h-svh grid place-items-center">
+    <main className="min-h-svh grid place-items-center relative z-10">
       <div className="max-w-xs w-full space-y-4 p-4 -mt-[10%]">
         <h1 className="scroll-m-20 text-3xl font-semibold tracking-tight text-balance">Invite a friend</h1>
         <div className="relative h-10">
